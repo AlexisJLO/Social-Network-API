@@ -1,0 +1,32 @@
+{
+    "name": "social-network-api",
+    "version": "1.0.0",
+    "description": "Social Network",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+      "dev": "nodemon index.js",
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/AlexisJLO/Social-Network-API"
+    },
+    "author": "Alexis",
+    "keywords": [
+      "social network",
+      "API",
+      "Node.js",
+      "Express",
+      "MongoDB"
+    ],
+    "license": "MIT",
+    "dependencies": {
+      "express": "^4.18.2",
+      "mongoose": "^8.0.3"
+    },
+    "devDependencies": {
+      "jest": "^29.7.0",
+      "nodemon": "^3.0.2"
+    }
+  }
